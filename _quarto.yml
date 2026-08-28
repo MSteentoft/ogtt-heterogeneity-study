@@ -7,18 +7,20 @@ book:
   author: ""
   chapters:
     - index.qmd
-    - 02-dansk-resumé.qmd
-    - 03-english-summary.qmd
-    - 04-paper-cover.qmd
-    - 05-structured-abstract.qmd
-    - 06-introduction.qmd
-    - 07-methods.qmd
-    - 08-results.qmd
-    - 09-conclusions.qmd
-    - 10-aknowledgements.qmd
-    - 11-manuscript-references.qmd
-    - 12-tables-and-figures.qmd
-    - 13-supplemental material.qmd
+    - 02-structured-abstract.qmd
+    - 03-introduction.qmd
+    - 04-methods.qmd
+    - 05-results.qmd
+    - 06-conclusions.qmd
+    - 07-acknowledgements.qmd
+    - 08-manuscript-references.qmd
+    - 09-tables-and-figures.qmd
+    - 10-supplemental-material.qmd
+    - 06-conclusions.qmd
+    - 07-acknowledgements.qmd
+    - 08-manuscript-references.qmd
+    - 09-tables-and-figures.qmd
+    - 10-supplemental-material.qmd
 
 bibliography: references.bib
 csl: american-medical-association-parentheses.csl

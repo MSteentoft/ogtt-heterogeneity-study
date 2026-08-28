@@ -1,0 +1,30 @@
+#   {.unnumbered .unlisted}
+
+# Title of the Manuscript
+
+\vspace{1em}
+
+**Authors:**  
+First Name Last Name\textsuperscript{1}, Second Name Last Name\textsuperscript{2}, Third Name Last Name\textsuperscript{1,3}
+
+\vspace{0.5em}
+
+**Affiliations:**  
+\textsuperscript{1} Department of Clinical Medicine, Aarhus University, Aarhus, Denmark  
+\textsuperscript{2} Department of Endocrinology, Aarhus University Hospital, Aarhus, Denmark  
+\textsuperscript{3} Steno Diabetes Center Aarhus, Aarhus, Denmark  
+
+\vspace{1.5em}
+
+---
+
+\vspace{1.5em}
+
+* **Journal:** Acta Diabetologica
+* **Type of paper:** Original Article
+* **Word count:** 3,500
+* **Number of figures:** 4
+* **References:** 45
+* **ORCID IDs:** 
+  * First Name Last Name: 0000-0000-0000-0000
+  * Second Name Last Name: 0000-0000-0000-0000
