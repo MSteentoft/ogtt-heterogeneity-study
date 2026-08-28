@@ -1,0 +1,35 @@
+```{=latex}
+\setstretch{2}
+```
+
+# **Abstract** {.unnumbered}
+
+**Objective:** This cross-sectional study aimed to identify metabolic subgroups among individuals at high risk of type 2 diabetes based on glucose and hormonal responses during an oral glucose tolerance test (OGTT) and to quantify their associations with body fat distribution.
+
+**Research Design and Methods:** K-means clustering was applied to 1,381 individuals at high risk of type 2 diabetes from the ADDITION-PRO cohort. Clustering variables included OGTT-derived measures of glucose, incretins (glucagon-like peptide-1 and glucose-dependent insulinotropic polypeptide), insulin sensitivity and glucagon suppression. Visceral (VAT) and subcutaneous (SAT) adipose tissue and body fat percentage were assessed by ultrasound and bioelectrical impedance analysis. Associations between clusters and standardized measures of fat distribution were assessed using linear regression models adjusted for age, sex, smoking and physical activity.
+
+**Results:** Three clusters were identified. Cluster 3 had the highest glucose levels, lowest insulin sensitivity, and highest VAT, SAT, VAT/SAT ratio and body fat percentage (0.69, 0.28, 0.18 and 0.62 SD units, respectively). Despite similar glycemic profiles, cluster 1 had the lowest incretin secretion but highest glucagon suppression, while cluster 2 showed the opposite pattern. Cluster 1 had similar VAT to cluster 2 but higher SAT (0.25 SD units), body fat percentage (0.14 SD units) and a lower VAT/SAT ratio (-0.21 SD units).
+
+**Conclusions:** These findings suggest that incretin and glucagon responses capture metabolic heterogeneity beyond glycemic status and are associated with differences in body fat distribution. As findings are limited by the cross-sectional design, future studies should examine whether this heterogeneity predicts risk trajectories and responses to prevention strategies.
+
+```{=latex}
+\clearpage
+\begin{landscape}
+\thispagestyle{empty}
+
+\noindent{\Large\bfseries Graphical abstract\par}
+\vspace{0.5cm}
+
+\begin{center}
+\includegraphics[
+  page=1,
+  width=0.96\linewidth,
+  height=0.82\textheight,
+  keepaspectratio
+]{images/graphical_abstract.pdf}
+\end{center}
+
+\vfill
+{\footnotesize Mikkel Errboe Steentoft \textbar\ 201609886 \hfill Page \thepage\ of 70}
+\end{landscape}
+```

@@ -1,0 +1,109 @@
+project:
+  type: book
+  output-dir: _book/manuscript
+
+book:
+  title: ""
+  author: ""
+  chapters:
+    - index.qmd
+    - 02-dansk-resumé.qmd
+    - 03-english-summary.qmd
+    - 04-paper-cover.qmd
+    - 05-structured-abstract.qmd
+    - 06-introduction.qmd
+    - 07-methods.qmd
+    - 08-results.qmd
+    - 09-conclusions.qmd
+    - 10-aknowledgements.qmd
+    - 11-manuscript-references.qmd
+    - 12-tables-and-figures.qmd
+    - 13-supplemental material.qmd
+
+bibliography: references.bib
+csl: american-medical-association-parentheses.csl
+link-citations: false
+csl-hanging-indent: true
+
+format:
+  pdf:
+    pdf-engine: xelatex
+    mainfont: "Times New Roman"
+    fontsize: 12pt
+    linestretch: 2
+    documentclass: scrreprt
+    classoption: [a4paper]
+    toc: false
+    number-sections: true
+    geometry:
+      - top=25mm
+      - bottom=25mm
+      - left=20mm
+      - right=20mm
+      - headsep=6mm
+      - footskip=9mm
+    include-before-body:
+      - cover.tex
+    include-in-header:
+      text: |
+        \RedeclareSectionCommand[beforeskip=8pt,afterskip=3pt]{chapter}
+        \RedeclareSectionCommand[beforeskip=6pt,afterskip=1pt]{section}
+        \RedeclareSectionCommand[beforeskip=4pt,afterskip=1pt]{subsection}
+
+        \setkomafont{chapter}{\normalfont\bfseries\fontsize{16pt}{18pt}\selectfont}
+        \setkomafont{section}{\normalfont\bfseries\fontsize{14pt}{16pt}\selectfont}
+        \setkomafont{subsection}{\normalfont\bfseries\fontsize{12pt}{14pt}\selectfont}
+        \setkomafont{disposition}{\normalfont\bfseries}
+
+        \setlength{\parindent}{0pt}
+        \setlength{\parskip}{6pt}
+
+        \usepackage{ragged2e}
+        \RaggedRight
+
+        \usepackage{hyperref}
+        \hypersetup{hidelinks,draft}
+
+        \usepackage{longtable}
+        \usepackage{booktabs}
+        \usepackage{chngcntr}
+        \usepackage{pdflscape}
+        \usepackage{etoolbox}
+        \usepackage{scrlayer-scrpage}
+        \usepackage{needspace}
+        \usepackage{setspace}
+        \usepackage{graphicx}
+
+        \counterwithout{table}{chapter}
+
+        \clearpairofpagestyles
+        \lofoot{\normalfont\fontsize{10pt}{12pt}\selectfont Mikkel Errboe Steentoft \textbar\ 201609886}
+        \lefoot{\normalfont\fontsize{10pt}{12pt}\selectfont Mikkel Errboe Steentoft \textbar\ 201609886}
+        \rofoot{\normalfont\fontsize{10pt}{12pt}\selectfont Page \thepage\ of 70}
+        \refoot{\normalfont\fontsize{10pt}{12pt}\selectfont Page \thepage\ of 70}
+        \pagestyle{scrheadings}
+        \renewcommand*{\chapterpagestyle}{scrheadings}
+
+        \hyphenpenalty=10000
+        \exhyphenpenalty=10000
+        \emergencystretch=3em
+
+        \setlength{\csllabelwidth}{1.5em}
+        \makeatletter
+        \renewenvironment{CSLReferences}[2]{%
+          \begin{list}{}{%
+            \setlength{\topsep}{0pt}%
+            \setlength{\parsep}{0pt}%
+            \setlength{\itemsep}{2pt}%
+            \setlength{\leftmargin}{0pt}%
+            \setlength{\itemindent}{0pt}%
+          }%
+        }{%
+          \end{list}%
+        }
+        \renewcommand{\CSLRightInline}[1]{%
+          \parbox[t]{\dimexpr\linewidth-\csllabelwidth\relax}{%
+            \hangindent=1.5em\hangafter=1 #1%
+          }%
+        }
+        \makeatother

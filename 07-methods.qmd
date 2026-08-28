@@ -1,0 +1,54 @@
+---
+suppress-bibliography: true
+bibliography: references.bib
+---
+
+# Research Design and Methods
+
+This cross-sectional study was based on data from the ADDITION-PRO study, conducted from 2009-2011 [@johansen2012]. The ADDITION-PRO cohort was sampled from the ADDITION-DK study, a population-based high-risk screening program for type 2 diabetes conducted in Danish general practices from 2001-2006 [@lauritzen2000]. Following completion of the screening program, participants without diabetes (n=22,200) were stratified into five categories based on their glycemic status and a diabetes risk score including age, sex, BMI, family history of diabetes, known hypertension and physical activity [@glümer2004]: 1) low risk, 2) high risk with normoglycemia (NGT), 3) isolated impaired fasting glucose (iIFG), 4) isolated impaired glucose tolerance (iIGT) and 5) combined impaired fasting glucose and impaired glucose tolerance (IFG+IGT). Individuals with iIFG, iIGT, IFG+IGT and those who had developed type 2 diabetes since screening (n = 1,483 in total) as well as a random sample of individuals at low and high risk with NGT (n = 2705) were invited to the health assessment in the ADDITION-PRO study, of whom 2,082 (50%) agreed to participate [@johansen2012]. According to the World Health Organization 2006 criteria [@worldhealthorganization2006], all participants were categorized as having NGT, iIFG, iIGT, combined IFG and IGT or type 2 diabetes based on fasting plasma glucose (FPG) and 2-hour plasma glucose values (2hPG).
+
+The ADDITION-PRO study was approved by the Scientific Ethics Committee of the Central Denmark Region (reference no. 20080229) and conducted in accordance with the principles of the Declaration of Helsinki. All participants provided both oral and written informed consent.
+
+## Study procedures
+
+### Biochemical measures
+
+Glucose, insulin, GLP-1, GIP and glucagon were measured in venous blood samples drawn at 0, 30 and 120 minutes during a standard 2-hour 75g oral glucose tolerance test given to participants after an overnight fast of ≥ 8 hours. Plasma glucose was analyzed using the Hitachi 912 system (Roche Diagnostics, Mannheim, Germany) or the Vitros 5600 Integrated System (Ortho Clinical Diagnostics Illkirch Cedex, France). Subsequently, all values analyzed with Vitros 5600 were converted to Hitachi 912 values. Serum insulin was measured by immunoassay (AutoDELFIA, Perkin Elmer, Massachusetts, United States). For the analysis of GLP-1, GIP and glucagon, blood samples were collected in EDTA-containing tubes, immediately cooled on ice and kept frozen at -80°C until analysis [@johansen2012]. Total plasma GLP-1 and GIP were measured by radioimmunoassay (RIA) as previously described [@orskov1994; @færch2015; @færch2016], with an analytical detection limit of 1 pmol/l with intra- and interassay coefficients of variation of 6% and 15%, respectively. Plasma glucagon was measured using a C-terminal-specific RIA as previously described [@holst1983; @færch2016; @toft-nielsen2001], with an analytical detection limit of 1 pmol/l and intra- and interassay coefficients of variation of 6% and 15%, respectively. In addition, glycated hemoglobin (HbA1c) was measured from the fasting blood sample measured by high-performance liquid chromatography [@johansen2012].
+
+### Measures of body fat distribution
+
+Measures of abdominal fat distribution were assessed by ultrasound (Logiq9 ultrasound machine, GE Healthcare, Waukesha, WI, USA) according to established protocols [@stolk2001; @philipsen2015]. With the participant in the supine position, VAT and SAT (cm) were measured with the transducer placed where the xiphoid crosses the waistline. SAT was measured as the distance from the skin to the linea alba and VAT was defined as the vertical distance from peritoneum to the front edge of the vertebra. Body fat percentage was assessed by bioelectrical impedance analysis [@johansen2012]. Waist circumference was measured to the nearest 0.1 cm at the midpoint between the lower costal margin and the level of the iliac crest. Height was measured to the nearest 0.1 cm with a fixed stadiometer (Seca, Medical Scales and Measuring Systems, Hamburg, Germany) and weight to the nearest 0.1 kg using a Tanita Body Composition Analyser (Tokyo, Japan). BMI was defined as weight in kg divided by height in meters squared [@johansen2012].
+
+### Covariates
+
+Smoking status was obtained through a general health questionnaire with three response options: daily smoker, occasional smoker and never smoker. For this analysis, daily and occasional smokers were combined into a single current smoker category. Physical activity was assessed using a combined heart rate and accelerometer monitor (ActiHeart CamNTech, Ltd., Cambridge, United Kingdom [@brage2005]) and participants were asked to wear the monitor for seven days. Calculations of physical activity energy expenditure (PAEE) were performed using a branched equation model combining heart rate and accelerometry measures [@brage2005; @johansen2012].
+
+### Analytical sample
+
+Of the 2,082 participants attending the follow-up health assessment, 1,381 were included in the clustering analysis. Participants were excluded if they were currently taking medication for type 2 diabetes, as glucose-lowering medication affects the glucose and hormonal responses during the OGTT (n = 114), had fasted less than eight hours prior to the OGTT (n = 197) or were missing any of the measurements during the OGTT (n = 390). Further, participants were excluded from the regression models if they were missing data on VAT or SAT (n = 108), body fat percentage (n = 14), physical activity (n = 46) or smoking status (n = 7), leaving 1,206 participants for the assessment of the associations with body fat distribution.
+
+### Calculations
+
+Total area under the curve (AUC) for glucose, insulin, GLP-1, GIP and glucagon from 0-120 minutes during the OGTT was calculated using the trapezoid rule [@tai1994b]. For example, AUC glucose was calculated as:
+
+$$AUC_{glucose} = \frac{glucose_0 + glucose_{30}}{2} \times 30 + \frac{glucose_{30} + glucose_{120}}{2} \times 90$$
+
+As a measure of insulin sensitivity, Gutt's insulin sensitivity index [@gutt2000] was calculated as
+
+$$ISI_{0,120} = \frac{75000 + 180(glucose_{t0} - glucose_{t120}) \times 0.19 \times body\ weight}{120 \times \left(\frac{glucose_{t0} + glucose_{t120}}{2}\right) \times \log\left(\frac{insulin_{t0} + insulin_{t120}}{6.945 \times 2}\right)}$$
+
+Glucagon suppression (%) from 0-120 minutes was calculated as
+
+$$Glucagon\ suppression = \left(1 - \frac{glucagon_{120}}{glucagon_{0}}\right) \times 100\%$$
+
+Glucagon suppression for intervals 0-30 and 30-120 minutes was calculated accordingly.
+
+### Statistical analysis
+
+Five variables were selected for clustering to capture the interplay between glucose, insulin sensitivity, GLP-1, GIP and glucagon during the total period of the OGTT (0-120 minutes): AUC glucose, Gutt's index (ISI), AUC GLP-1, AUC GIP and glucagon suppression. Variables were selected to capture postload glucose metabolism and hormonal responses in individuals at high risk of type 2 diabetes [@færch2015; @wagner2017]. Summarized measures based on the full OGTT period were used in line with previous phenotyping studies using summarized OGTT-measures [@wagner2021], while Gutt's ISI was included as a measure of insulin sensitivity.
+
+K-means clustering was used to identify subgroups with distinct OGTT responses, with 25 random initializations to ensure stable cluster assignments [@james2021]. Prior to clustering AUC glucose, Gutt's ISI, AUC GLP-1 and AUC GIP were logarithmically transformed to account for right-skewed distributions. Glucagon suppression was maintained on its original scale to include both positive and negative values. All variables were standardized (mean = 0, standard deviation = 1) to ensure equal contribution to the Euclidean distance metric in the K-means algorithm [@james2021]. The optimal number of clusters was identified through the use of the NbClust package in R [@charrad2014] in combination with the average silhouette width. The NbClust package evaluates 26 indices of the cluster solutions, and the optimal number of clusters is the one suggested by the majority of indices. The average silhouette width quantifies how well observations fit their assigned cluster and ranges from -1 to 1, where higher values indicate a better cluster solution. In addition to statistical criteria, the final clustering solution was based on distinct OGTT-profiles of the identified subgroups and minimum cluster size, excluding solutions where clusters were too small to represent distinct metabolic phenotypes. To assess the robustness to sex differences in the clustering variables, a sensitivity analysis was performed using sex-stratified K-means clustering and the same method as described above.
+
+Characteristics of the study population were stratified by cluster membership and described using means (SD) for continuous variables and frequencies (n, percentages) for categorical variables. Right-skewed variables (glucose, insulin, GLP-1 and GIP) are described as geometric means (95% CI), and glucagon suppression as arithmetic means (95% CI).
+
+Associations between identified clusters and measures of fat distribution were assessed using linear regression models with clusters as categorical explanatory variables and VAT, SAT, VAT/SAT ratio and body fat percentage as continuous outcomes. Cluster 2 was used as the reference category because it appeared metabolically most favorable, with the highest insulin sensitivity and lowest adiposity. VAT, SAT and the VAT/SAT ratio were log-transformed to account for right-skewed distributions. All outcome variables were then standardized to facilitate comparison of associations across outcomes, and regression coefficients were presented as mean differences in SD units. Two models were fitted: Model 1 adjusted for age and sex and model 2 further adjusted for smoking status and physical activity to assess potential confounding of lifestyle factors. Sex-specific associations were assessed in stratified models to account for biologically meaningful differences in body composition between sexes [@bredella2017]. Sex-by-cluster interaction terms were tested in the main models, where associations with a p-value \< 0.05 were considered statistically significant. To facilitate clinical interpretation, the regression analyses were repeated using non-standardized outcomes. Residual plots indicated that assumptions of linearity, homoscedasticity and normality were reasonably met. All statistical analyses were performed in R version 4.5.2 [@rcoreteam].
