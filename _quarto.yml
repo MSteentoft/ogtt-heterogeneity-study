@@ -44,8 +44,6 @@ format:
       - right=20mm
       - headsep=6mm
       - footskip=9mm
-    include-before-body:
-      - cover.tex
     include-in-header:
       text: |
         \RedeclareSectionCommand[beforeskip=8pt,afterskip=3pt]{chapter}
@@ -109,3 +107,4 @@ format:
           }%
         }
         \makeatother
+

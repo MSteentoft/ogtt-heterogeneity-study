@@ -1,30 +1,28 @@
 #   {.unnumbered .unlisted}
 
-# Title of the Manuscript
+# Heterogeneity in GLP-1, GIP and glucagon responses during an oral glucose tolerance test among individuals at high risk of type 2 diabetes
 
 \vspace{1em}
 
 **Authors:**  
-First Name Last Name\textsuperscript{1}, Second Name Last Name\textsuperscript{2}, Third Name Last Name\textsuperscript{1,3}
-
-\vspace{0.5em}
+Mikkel Errboe Steentoft<sup>1</sup>, Gunnar Vase Toft<sup>2</sup>, Jonas R. Schaarup<sup>1</sup>, Daniel R. Witte<sup>1,2</sup>
 
 **Affiliations:**  
-\textsuperscript{1} Department of Clinical Medicine, Aarhus University, Aarhus, Denmark  
-\textsuperscript{2} Department of Endocrinology, Aarhus University Hospital, Aarhus, Denmark  
-\textsuperscript{3} Steno Diabetes Center Aarhus, Aarhus, Denmark  
+<sup>1</sup>Department of Public Health, Aarhus University, Aarhus, Denmark  
+<sup>2</sup>Steno Diabetes Center Aarhus, Aarhus, Denmark
 
 \vspace{1.5em}
 
----
-
 \vspace{1.5em}
 
-* **Journal:** Acta Diabetologica
-* **Type of paper:** Original Article
-* **Word count:** 3,500
-* **Number of figures:** 4
-* **References:** 45
-* **ORCID IDs:** 
-  * First Name Last Name: 0000-0000-0000-0000
-  * Second Name Last Name: 0000-0000-0000-0000
+**Journal:** Metabologia \
+**Type of paper:** Original Article \
+**Word count:** 3,500 \
+**Number of figures:** 4 \
+**References:** 45 \
+**ORCID IDs:** \
+Mikkel Errboe Steentoft: <https://orcid.org/0009-0005-5360-3256> \
+Gunnar Vase Toft: <https://orcid.org/0000-0002-7542-6853> \
+Jonas Frey Rosborg Schaarup: <https://orcid.org/0000-0002-7209-2675> \
+Daniel Rinse Witte: <https://orcid.org/0000-0002-0769-2922>
+  
