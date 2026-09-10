@@ -1,7 +1,17 @@
-.Rproj.user
+# Rendered outputs
+*.pdf
+*.docx
+*.tex
+_book/
+_freeze/
+/.quarto/
+
+# R/RStudio system files
+.Rproj.user/
 .Rhistory
 .RData
 .Ruserdata
-
+.DS_Store
 /.quarto/
-**/*.quarto_ipynb
+setpagedevice
+images/original/

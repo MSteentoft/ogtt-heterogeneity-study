@@ -1,0 +1,276 @@
+---
+format:
+  nature-pdf:
+    output-fiel: "supplementary-heterogeneity-glp1-gip-glucagon_ogtt.pdf"
+    include-in-header:
+      text: |
+        \usepackage{placeins}
+        \usepackage{array}
+        \usepackage{rotating}
+        \usepackage{pdflscape}
+        \usepackage{booktabs}
+        \usepackage{caption}
+        \usepackage{changepage}
+    journal: 
+      cite-style: sn-vancouver-num
+      cite-method: natbib
+bibliography: references.bib
+---
+
+\backmatter
+\section*{Supplementary Information}
+\textbf{Article title:} Heterogeneity in GLP-1, GIP and glucagon responses during an oral glucose tolerance test
+
+\textbf{Journal name:} Metabologia
+
+\textbf{Author names:} Mikkel Errboe Steentoft, Gunnar Vase Toft, Jonas Frey Rosborg Schaarup, Daniel R. Witte
+
+\textbf{Corresponding author affiliation and e-mail:} Steno Diabetes Center Aarhus, Aarhus Universitetshospital, Denmark & Department of Public Health, Aarhus University, Denmark; milram@rm.dk
+
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\setcounter{table}{0}
+\setcounter{figure}{0}
+
+
+
+
+
+\clearpage
+\begin{landscape}
+\thispagestyle{empty}
+
+\noindent\hspace*{-4.2cm}%
+\begin{minipage}{1.2\linewidth}
+
+\captionsetup{
+  justification=raggedright,
+  singlelinecheck=false
+}
+\captionof{table}{Characteristics across sex-stratified clusters}
+\label{tab:supp-ogtt-measures}
+
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}l*{6}{>{\centering\arraybackslash}p{3.15cm}}@{}}
+\toprule
+& \multicolumn{3}{c}{Women} & \multicolumn{3}{c}{Men} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7}
+& \shortstack{\textbf{Cluster 1}\\$n=226$}
+& \shortstack{\textbf{Cluster 2}\\$n=205$}
+& \shortstack{\textbf{Cluster 3}\\$n=223$}
+& \shortstack{\textbf{Cluster 1}\\$n=245$}
+& \shortstack{\textbf{Cluster 2}\\$n=248$}
+& \shortstack{\textbf{Cluster 3}\\$n=234$} \\
+\midrule
+AUC glucose (mmol/L $\times$ min)
+& 833 (820; 848) & 809 (794; 825) & 1103 (1085; 1121)
+& 875 (863; 888) & 868 (855; 881) & 1168 (1147; 1189) \\
+
+Insulin sensitivity index$_{0-120\,\mathrm{min}}$
+& 40.8 (39.3; 42.4) & 50.8 (48.3; 53.4) & 23.2 (22.2; 24.2)
+& 43.4 (41.5; 45.4) & 46.6 (44.7; 48.6) & 19.4 (18.6; 20.2) \\
+
+AUC GLP-1$_{0-120\,\mathrm{min}}$ (pmol/L $\times$ min)
+& 2053 (1914; 2202) & 4679 (4406; 4968) & 2912 (2747; 3087)
+& 1794 (1692; 1902) & 3426 (3248; 3613) & 2593 (2449; 2745) \\
+
+AUC GIP$_{0-120\,\mathrm{min}}$ (pmol/L $\times$ min)
+& 4311 (4122; 4509) & 6390 (6113; 6679) & 6141 (5858; 6437)
+& 3592 (3457; 3733) & 5898 (5679; 6124) & 4813 (4603; 5032) \\
+
+Glucagon suppression$_{0-120\,\mathrm{min}}$ (\%)
+& 44.9 (41.8; 48.0) & -1.4 (-10.7; 7.9) & 39.4 (35.8; 43.1)
+& 47.0 (43.9; 50.1) & 20.4 (9.5; 31.3) & 49.5 (46.1; 52.9) \\
+\bottomrule
+\end{tabular}%
+}
+
+\par\smallskip
+{\small
+Data are geometric means for AUC glucose, insulin sensitivity index, AUC GLP-1 and AUC GIP, and arithmetic means for glucagon suppression.\par}
+
+\end{minipage}
+
+\vfill
+\noindent\hspace*{-3.2cm}%
+\makebox[\linewidth][c]{\thepage}
+
+\end{landscape}
+
+
+
+
+
+
+\begin{landscape}
+\thispagestyle{empty}
+\vspace*{-3cm}
+\noindent\hspace*{-4.0cm}%
+\begin{minipage}{1\linewidth}
+\centering
+\captionsetup{
+  justification=raggedright,
+  singlelinecheck=false
+}
+\captionof{table}{Characteristics from the oral glucose tolerance test by clusters}
+\label{tab:supp-ogtt-measures}
+
+\begin{tabular}{@{}l*{4}{>{\centering\arraybackslash}p{3.8cm}}@{}}
+\toprule
+& \shortstack{\textbf{Overall}\\$N=1381$}
+& \shortstack{\textbf{Cluster 1}\\$N=459$}
+& \shortstack{\textbf{Cluster 2}\\$N=491$}
+& \shortstack{\textbf{Cluster 3}\\$N=431$} \\
+\midrule
+\multicolumn{5}{@{}l}{\textbf{Plasma glucose}} \\
+Fasting (mmol/L)
+& 6.0 (5.9; 6.0) & 5.8 (5.7; 5.8) & 5.7 (5.7; 5.8) & 6.5 (6.5; 6.6) \\
+30 min (mmol/L)
+& 9.04 (8.95; 9.13) & 8.44 (8.31; 8.56) & 8.47 (8.33; 8.60) & 10.48 (10.34; 10.62) \\
+120 min (mmol/L)
+& 6.5 (6.4; 6.6) & 5.9 (5.8; 6.0) & 5.4 (5.3; 5.5) & 9.1 (8.9; 9.3) \\
+AUC$_{0-120\,\mathrm{min}}$ (mmol/L $\times$ min)
+& 934 (925; 943) & 863 (854; 873) & 841 (831; 851) & 1,145 (1,130; 1,159) \\
+\addlinespace
+\multicolumn{5}{@{}l}{\textbf{Insulin}} \\
+Fasting (pmol/L)
+& 37.1 (35.9; 38.4) & 33.3 (31.7; 35.1) & 29.7 (28.2; 31.2) & 53.7 (50.5; 57.1) \\
+30 min (pmol/L)
+& 212 (205; 219) & 180 (169; 191) & 214 (203; 226) & 250 (235; 265) \\
+120 min (pmol/L)
+& 187.6 (179.8; 195.7) & 145.4 (137.3; 154.0) & 125.4 (118.5; 132.8) & 389.2 (366.8; 413.1) \\
+AUC$_{0-120\,\mathrm{min}}$ (pmol/L $\times$ min)
+& 23,410 (22,708; 24,133) & 19,006 (18,162; 19,889) & 20,028 (19,158; 20,937) & 34,912 (33,200; 36,712) \\
+Insulin sensitivity index$_{0-120\,\mathrm{min}}$
+& 35 (34; 36) & 42 (41; 43) & 48 (46; 49) & 21 (20; 21) \\
+\addlinespace
+\multicolumn{5}{@{}l}{\textbf{Incretins}} \\
+Fasting GLP-1 (pmol/L)
+& 9.7 (9.3; 10.1) & 7.2 (6.6; 7.8) & 11.8 (11.2; 12.5) & 10.6 (9.9; 11.3) \\
+GLP-1$_{30\,\mathrm{min}}$ (pmol/L)
+& 27 (26; 28) & 17 (17; 18) & 40 (38; 42) & 28 (26; 29) \\
+GLP-1$_{120\,\mathrm{min}}$ (pmol/L)
+& 19 (18; 20) & 14 (14; 15) & 27 (26; 28) & 17 (17; 18) \\
+AUC GLP-1$_{0-120\,\mathrm{min}}$ (pmol/L $\times$ min)
+& 2,733 (2,654; 2,815) & 1,873 (1,789; 1,960) & 3,938 (3,787; 4,094) & 2,698 (2,585; 2,815) \\
+Fasting GIP (pmol/L)
+& 8.4 (8.1; 8.6) & 6.9 (6.5; 7.3) & 9.6 (9.2; 10.0) & 8.8 (8.3; 9.3) \\
+GIP$_{30\,\mathrm{min}}$ (pmol/L)
+& 48 (47; 49) & 36 (34; 37) & 60 (58; 62) & 51 (49; 53) \\
+GIP$_{120\,\mathrm{min}}$ (pmol/L)
+& 43 (42; 44) & 34 (33; 35) & 53 (51; 55) & 44 (42; 46) \\
+AUC GIP$_{0-120\,\mathrm{min}}$ (pmol/L $\times$ min)
+& 5,050 (4,946; 5,155) & 3,859 (3,746; 3,976) & 6,265 (6,090; 6,444) & 5,259 (5,084; 5,440) \\
+\addlinespace
+\multicolumn{5}{@{}l}{\textbf{Glucagon}} \\
+Fasting (pmol/L)
+& 10 (9; 10) & 9 (8; 9) & 9 (8; 9) & 11 (11; 12) \\
+Glucagon$_{30\,\mathrm{min}}$ (pmol/L)
+& 8.3 (8.1; 8.6) & 6.6 (6.3; 7.0) & 8.3 (7.9; 8.7) & 10.7 (10.2; 11.2) \\
+Glucagon$_{120\,\mathrm{min}}$ (pmol/L)
+& 5.5 (5.3; 5.6) & 4.3 (4.1; 4.6) & 6.7 (6.4; 7.1) & 5.5 (5.2; 5.8) \\
+AUC$_{0-120\,\mathrm{min}}$ (pmol/L $\times$ min)
+& 916 (891; 941) & 745 (711; 780) & 960 (921; 1,001) & 1,081 (1,030; 1,134) \\
+Suppression$_{0-30\,\mathrm{min}}$ (\%)
+& 0.8 (-4.1; 5.7) & 17.7 (12.7; 22.8) & -5.5 (-12.5; 1.5) & -10.2 (-22.5; 2.1) \\
+Suppression$_{30-120\,\mathrm{min}}$ (\%)
+& 26.0 (23.3; 28.8) & 28.3 (24.6; 32.0) & 7.8 (1.5; 14.1) & 44.4 (42.5; 46.4) \\
+Suppression$_{0-120\,\mathrm{min}}$ (\%)
+& 33.9 (31.1; 36.7) & 47.0 (44.8; 49.1) & 11.6 (4.8; 18.5) & 45.3 (42.7; 47.9) \\
+\bottomrule
+\end{tabular}
+
+
+\par\smallskip
+\noindent
+\begin{minipage}{1.18\textwidth}
+\small
+Data are geometric means (95\% CI) for glucose, insulin, GLP-1 and GIP and arithmetic means (95\% CI) for glucagon suppression.
+\end{minipage}
+
+
+
+\end{minipage}
+\vfill
+\noindent\hspace*{-3.2cm}%
+\makebox[\linewidth][c]{\thepage}
+\end{landscape}
+\clearpage
+
+
+
+\clearpage
+\begin{landscape}
+\thispagestyle{empty}
+\noindent\hspace*{-4.0cm}%
+\begin{minipage}{1.06\linewidth}
+\centering
+\includegraphics[trim=0 0 0 0, clip, width=\linewidth]{images/journal/supplementary_fig_1.pdf}
+\captionsetup{
+  justification=raggedright,
+  singlelinecheck=false
+}
+\captionof{figure}{Sex-stratified associations between clusters and standardized VAT (A), SAT (B), VAT/SAT ratio (C) and body fat percentage (D). VAT, SAT and VAT/SAT ratio were log-transformed
+and standardized before regression analyses and body fat percentage was standardized on the original scale. Estimates are shown relative to Cluster 2. Model 1 is adjusted for age
+and Model 2 is further adjusted for smoking status and physical activity. Dots and triangles represent point estimates and horizontal lines 95\% confidence intervals. No statistically significant (p > 0.05) sex-by-cluster interactions were observed.}
+\label{fig-sex-specific-associations}
+\end{minipage}
+\vfill
+\noindent\hspace*{-3.2cm}%
+\makebox[\linewidth][c]{\thepage}
+\end{landscape}
+
+
+
+
+
+
+
+
+\begin{adjustwidth}{-0.5cm}{0cm}
+\begin{minipage}{1.18\textwidth}
+\raggedright
+\small
+
+\captionsetup{
+  justification=raggedright,
+  singlelinecheck=false
+}
+\captionof{table}{Associations between cluster and non-standardized measures of \\
+VAT, SAT, VAT/SAT ratio and body fat percentage}
+\label{tab:supp-original-values}
+
+\resizebox{0.9\textwidth}{!}{%
+\begin{tabular}{@{}l>{\centering\arraybackslash}p{5cm}>{\centering\arraybackslash}p{5cm}@{}}
+\toprule
+& \textbf{Adjusted for age and sex}
+& \textbf{Further adjusted for smoking status and physical activity} \\
+& Estimate (95\% CI) & Estimate (95\% CI) \\
+\midrule
+
+\textbf{VAT (cm)} \\
+Cluster 1 & -1.0 (-4.8; 3.0) & -0.5 (-4.4; 3.6) \\
+Cluster 3 & \textbf{26.0 (20.9; 31.3)} & \textbf{26.1 (21.0; 31.4)} \\
+
+\textbf{SAT (cm)} \\
+Cluster 1 & \textbf{12.3 (5.8; 19.2)} & \textbf{11.9 (5.4; 18.8)} \\
+Cluster 3 & \textbf{13.8 (6.9; 21.1)} & \textbf{13.7 (6.9; 21.0)} \\
+
+\textbf{VAT/SAT ratio} \\
+Cluster 1 & \textbf{-11.8 (-17.5; -5.7)} & \textbf{-11.1 (-16.8; -4.9)} \\
+Cluster 3 & \textbf{10.7 (3.3; 18.7)} & \textbf{10.8 (3.4; 18.8)} \\
+
+\textbf{Body fat (\%)} \\
+Cluster 1 & \textbf{1.2 (0.4; 2.0)} & \textbf{1.2 (0.3; 2.0)} \\
+Cluster 3 & \textbf{5.1 (4.3; 6.0)} & \textbf{5.1 (4.2; 5.9)} \\
+\bottomrule
+\end{tabular}%
+}
+
+\par\smallskip
+{\small\raggedright
+Reference: Cluster 2. Data are expressed as percentage differences (95\% CI) for VAT, SAT and VAT/SAT ratio, \\ and as differences (95\% CI) in percentage points for body fat percentage. Models are adjusted for age and sex, \\ with further adjustment for smoking status and physical activity. Bold estimates indicate statistically \\ significant associations ($p<0.05$).\par}
+
+\end{minipage}
+\end{adjustwidth}
+\clearpage

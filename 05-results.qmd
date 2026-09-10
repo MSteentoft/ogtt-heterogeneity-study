@@ -1,7 +1,3 @@
----
-suppress-bibliography: true
----
-
 # Results
 
 ## Study population
@@ -10,10 +6,117 @@ The included study population had a mean age of 66 years (SD = 7.1) and 53% were
 
 ## K-means clustering
 
-A three-cluster solution was identified as the most appropriate clustering solution based on statistical criteria, distinct OGTT-profiles and sufficient cluster sizes, with an overall silhouette width of 0.21. While the NbClust package indicated highest support for two and nine clusters, a two-cluster solution collapsed the incretin and glucagon heterogeneity into a single group dominated by differences in glucose and insulin sensitivity, and solutions with more than three clusters produced very small clusters (n = 2) driven by extreme values on glucagon suppression. Cluster characteristics of the three-cluster solution are presented in Table 1. Cluster 1 (n = 459) had the youngest mean age, highest proportion of males and highest physical activity level, while cluster 2 (n = 491) had the highest proportion of women and cluster 3 (n = 431) had the oldest mean age and highest proportion of current smokers. Regarding adiposity, Cluster 3 had the highest BMI, waist circumference, body fat percentage, and VAT in both men and women, while Cluster 2 had the lowest BMI, waist circumference and SAT, and Cluster 1 had the lowest VAT and VAT/SAT ratio. The distribution of glycemic status differed markedly across clusters. Cluster 3 had the highest proportion of type 2 diabetes (33%), IFG+IGT (25%) and iIGT (21%), while the majority of individuals in clusters 1 and 2 had normoglycemia (69% and 78%, respectively). Sex-stratified clustering (Supplementary table 1) produced three broadly similar clusters in both men and women, with consistent within and between-cluster differences similar to the main analysis.
+A three-cluster solution was identified as the most appropriate clustering solution based on statistical criteria, distinct OGTT-profiles and sufficient cluster sizes, with an overall silhouette width of 0.21. While the NbClust package indicated highest support for two and nine clusters, a two-cluster solution collapsed the incretin and glucagon heterogeneity into a single group dominated by differences in glucose and insulin sensitivity, and solutions with more than three clusters produced very small clusters (n = 2) driven by extreme values on glucagon suppression. Cluster characteristics of the three-cluster solution are presented in Table 1. Cluster 1 (n = 459) had the youngest mean age, highest proportion of males and highest physical activity level, while cluster 2 (n = 491) had the highest proportion of women and cluster 3 (n = 431) had the oldest mean age and highest proportion of current smokers. Regarding adiposity, Cluster 3 had the highest BMI, waist circumference, body fat percentage, and VAT in both men and women, while Cluster 2 had the lowest BMI, waist circumference and SAT, and Cluster 1 had the lowest VAT and VAT/SAT ratio. The distribution of glycemic status differed markedly across clusters. Cluster 3 had the highest proportion of type 2 diabetes (33%), IFG+IGT (25%) and iIGT (21%), while the majority of individuals in clusters 1 and 2 had normoglycemia (69% and 78%, respectively). Sex-stratified clustering (supplementary Table S1) produced three broadly similar clusters in both men and women, with consistent within and between-cluster differences similar to the main analysis.
 
-Figure 1 shows characteristics of clustering variables across clusters. The OGTT response patterns underlying these clusters are shown in Figure 2, with mean response curves for glucose, insulin, GLP-1, GIP and glucagon (*Fig. 2A, B, C, D* and *E,* respectively) at all three time points (0, 30 and 120 minutes). Cluster 3 was characterized by the highest fasting glucose and 2hPG, alongside the highest insulin concentrations throughout the OGTT and the lowest insulin sensitivity across clusters. In contrast, cluster 2 had the lowest 2hPG, higher 30-minute insulin than cluster 1 and the highest insulin sensitivity. Cluster 1 had the lowest incretin secretion with substantially lower GLP-1 and GIP secretion than cluster 2. Glucagon response patterns also differed between clusters. Cluster 3 showed impaired early glucagon suppression, whereas cluster 2 had lower glucagon suppression than cluster 1 across all intervals. Despite differences in early and late response patterns, clusters 1 and 3 had similar overall glucagon suppression while cluster 3 had the highest overall glucagon secretion. Detailed OGTT measurements are shown in Supplementary table 2.
+\begin{table*}[!htbp]
+\centering
+\small
+\caption{Demographics, lifestyle, adiposity and biochemical characteristics by cluster}\label{tab-characteristics}%
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+ & \textbf{Overall} & \textbf{Cluster 1} & \textbf{Cluster 2} & \textbf{Cluster 3} \\
+ & N = 1381 & N = 459 & N = 491 & N = 431 \\
+\midrule
+\multicolumn{5}{l}{\textbf{Demographics \& Lifestyle}} \\
+Age at follow-up (years) & 66 (7.1) & 64.7 (7.4) & 66.5 (7.3) & 66.9 (6.4) \\
+Sex \\
+\quad Women & 654 (47\%) & 175 (38\%) & 291 (59\%) & 188 (44\%) \\
+\quad Men & 727 (53\%) & 284 (62\%) & 200 (41\%) & 243 (56\%) \\
+Smoking status \\
+\quad Current smoker & 863 (63\%) & 266 (58\%) & 307 (63\%) & 290 (68\%) \\
+\quad Never smoked & 508 (37\%) & 190 (42\%) & 183 (37\%) & 135 (32\%) \\
+Physical activity (kJ/kg/day) & 52 (24) & 53.4 (23.8) & 50.4 (22.1) & 52.4 (26.1) \\
+\multicolumn{5}{l}{\textbf{Adiposity \& Fat Distribution}} \\
+Body mass index (BMI) \\
+\quad Men & 27.4 (3.8) & 26.7 (3.4) & 26.4 (3.8) & 29.2 (3.7) \\
+\quad Women & 26.6 (5.1) & 26.2 (4.2) & 25.3 (4.7) & 29 (5.7) \\
+Waist circumference (cm) \\
+\quad Men & 100.3 (11) & 98.2 (10.2) & 97.7 (11.2) & 105 (10.2) \\
+\quad Women & 89.8 (12.9) & 88.3 (10.6) & 86.1 (12.1) & 96.8 (13.3) \\
+Body fat (\%) \\
+\quad Men & 26.9 (6.1) & 25.5 (5.1) & 24.9 (5.8) & 30.1 (6.2) \\
+\quad Women & 37.5 (6.7) & 37.2 (5.6) & 35.5 (6.9) & 40.7 (6.2) \\
+Visceral adipose tissue (cm) \\
+\quad Men & 8.9 (2.7) & 8.1 (2.3) & 8.5 (2.6) & 10.2 (2.8) \\
+\quad Women & 6.8 (2.2) & 6.2 (1.7) & 6.3 (1.9) & 8.2 (2.7) \\
+Subcutaneous adipose tissue (cm) \\
+\quad Men & 2.2 (0.9) & 2.3 (0.8) & 2.1 (0.9) & 2.3 (1) \\
+\quad Women & 2.8 (1.1) & 2.9 (1.1) & 2.7 (1.2) & 3 (1) \\
+VAT/SAT ratio \\
+\quad Men & 4.8 (3) & 4.1 (2.2) & 4.9 (2.8) & 5.5 (3.7) \\
+\quad Women & 2.8 (1.7) & 2.5 (1.6) & 2.8 (1.6) & 3.1 (2) \\
+\multicolumn{5}{l}{\textbf{Biochemical measures}} \\
+Glycemic status \\
+\quad NGT & 734 (53\%) & 319 (69\%) & 382 (78\%) & 33 (8\%) \\
+\quad iIFG & 249 (18\%) & 105 (23\%) & 85 (17\%) & 59 (14\%) \\
+\quad iIGT & 122 (9\%) & 18 (4\%) & 13 (3\%) & 91 (21\%) \\
+\quad IFG+IGT & 116 (8\%) & $<$10$^{a}$ ($<$2\%) & $<$3$^{a}$ ($<$1\%) & 107 (25\%) \\
+\quad Type 2 diabetes & 160 (12\%) & 9 (2\%) & 10 (2\%) & 141 (33\%) \\
+HDL (mmol/l) & 1.6 (0.4) & 1.6 (0.4) & 1.7 (0.4) & 1.5 (0.4) \\
+LDL (mmol/l) & 3.3 (1) & 3.3 (0.9) & 3.3 (1) & 3.2 (0.9) \\
+Triglycerides (mmol/l) & 1.2 (0.7) & 1 (0.5) & 1.1 (0.6) & 1.5 (0.9) \\
+HbA1c (\%) & 5.7 (0.4) & 5.6 (0.3) & 5.6 (0.3) & 5.9 (0.5) \\
+HbA1c (mmol/mol) & 38.8 (4.6) & 37.7 (3.5) & 37.9 (3.7) & 41 (5.7) \\
+\botrule
+\end{tabular}
+{\footnotesize Values are n (\%) or mean (SD). $^{a}$Cells with fewer than 3 observations are suppressed to protect confidentiality.}
+\end{table*}
+\FloatBarrier
+
+Figure 1 shows characteristics of clustering variables across clusters. The OGTT response patterns underlying these clusters are shown in Figure 2, with mean response curves for glucose, insulin, GLP-1, GIP and glucagon (*Fig. 2A, B, C, D* and *E,* respectively) at all three time points (0, 30 and 120 minutes). Cluster 3 was characterized by the highest FPG and 2hPG, alongside the highest insulin concentrations throughout the OGTT and the lowest insulin sensitivity across clusters. In contrast, cluster 2 had the lowest 2hPG, higher 30-minute insulin than cluster 1 and the highest insulin sensitivity. Cluster 1 had the lowest incretin secretion with substantially lower GLP-1 and GIP secretion than cluster 2. Glucagon response patterns also differed between clusters. Cluster 3 showed impaired early glucagon suppression, whereas cluster 2 had lower glucagon suppression than cluster 1 across all intervals. Despite differences in early and late response patterns, clusters 1 and 3 had similar overall glucagon suppression while cluster 3 had the highest overall glucagon secretion. Detailed OGTT measurements are shown in supplementary Table S2.
+
+\begin{figure*}[!htbp]
+\centering
+    \includegraphics[width=\textwidth]{images/journal/fig_1.pdf}
+    \caption{OGTT-characteristics across clusters. Each plot shows the cluster mean standardized levels (z scores) of AUC glucose, AUC GLP-1, AUC GIP, Gutt's insulin sensitivity index and glucagon suppression. Higher z scores indicate higher values for the respective measure.}
+\label{fig-cluster-characteristics}
+\end{figure*}
+\FloatBarrier
+\FloatBarrier
+\begin{figure*}[!htbp]
+    \noindent\hspace*{-0.12\textwidth}%
+    \begin{minipage}{1.15\textwidth}
+        \centering
+        \includegraphics[
+            trim=0 0 0 0,
+            clip,
+            width=\linewidth
+        ]{images/journal/fig_2.pdf}
+        \caption{Mean response curves of Glucose (A), Insulin (B), GLP-1 (C), GIP (D) and Glucagon (E) during the OGTT (0-120 minutes) by clusters. Data are geometric means for glucose, insulin, GLP-1 and GIP and arithmetic means for glucagon. 95\% confidence intervals are shown around the mean for each time point.}
+        \label{fig-ogtt-curves}
+    \end{minipage}
+\end{figure*}
+\FloatBarrier
 
 ## Associations with measures of fat distribution
 
-Estimates from all four outcome models, representing associations between cluster membership and measures of body fat distribution, are shown in Table 2 and reported as mean differences in SD units on the log-scale for VAT, SAT and VAT/SAT ratio and on the original scale for body fat percentage. In the model adjusted for age and sex, cluster 3 had higher VAT, SAT, VAT/SAT ratio and body fat percentage than cluster 2, with the largest differences observed in VAT and body fat percentage (0.68 SD, 95% CI 0.56; 0.81 and 0.63 SD, 95% CI 0.52; 0.73, respectively. Cluster 1 had similar VAT than cluster 2 (-0.03 SD, 95% CI -0.15; 0.09), but higher SAT (0.25 SD, 95% CI 0.12; 0.38), higher body fat percentage (0.15 SD, 95% CI 0.05; 0.25) and lower VAT/SAT ratio (-0.23, 95% CI -0.34; -0.11). Estimates were largely unchanged after further adjustment for smoking and physical activity. No sex-by-cluster interactions were observed for measures of body fat distribution (p \> 0.05), and interaction terms were therefore not included in the main models. Sex-specific associations are illustrated in Supplementary figure 1, and regression models on the original outcome scales can be found in Supplementary table 3.
+Estimates from all four outcome models, representing associations between cluster membership and measures of body fat distribution, are shown in Table 2 and reported as mean differences in SD units on the log-scale for VAT, SAT and VAT/SAT ratio and on the original scale for body fat percentage. In the model adjusted for age and sex, cluster 3 had higher VAT, SAT, VAT/SAT ratio and body fat percentage than cluster 2, with the largest differences observed in VAT and body fat percentage (0.68 SD, 95% CI 0.56; 0.81 and 0.63 SD, 95% CI 0.52; 0.73, respectively). Cluster 1 had similar VAT to cluster 2 (-0.03 SD, 95% CI -0.15; 0.09), but higher SAT (0.25 SD, 95% CI 0.12; 0.38), higher body fat percentage (0.15 SD, 95% CI 0.05; 0.25) and lower VAT/SAT ratio (-0.23, 95% CI -0.34; -0.11). Estimates were largely unchanged after further adjustment for smoking and physical activity. No sex-by-cluster interactions were observed for measures of body fat distribution (p \> 0.05), and interaction terms were therefore not included in the main models. Sex-specific associations are illustrated in supplementary Figure S1, and regression models on the original outcome scales can be found in supplementary Table S3.
+
+\begin{table*}[!htbp]
+\small
+\caption{Associations between cluster and standardized measures of visceral fat (VAT), subcutaneous fat (SAT), VAT/SAT ratio and body fat percentage}
+\label{tab-associations}
+{\centering
+\begin{tabular}{@{}l>{\centering\arraybackslash}p{5cm}>{\centering\arraybackslash}p{5cm}@{}}
+\toprule
+ & \textbf{Adjusted for age and sex} & \textbf{Further adjusted for smoking status and physical activity} \\
+ & Estimate (95\% CI) & Estimate (95\% CI) \\
+\midrule
+\textbf{Visceral fat (cm)} \\
+Cluster 1 & -0.03 (-0.15; 0.09) & -0.01 (-0.13; 0.10) \\
+Cluster 3 & \textbf{0.68 (0.56; 0.81)} & \textbf{0.69 (0.56; 0.81)} \\
+\textbf{Subcutaneous fat (cm)} \\
+Cluster 1 & \textbf{0.25 (0.12; 0.38)} & \textbf{0.25 (0.11; 0.38)} \\
+Cluster 3 & \textbf{0.28 (0.15; 0.42)} & \textbf{0.28 (0.14; 0.42)} \\
+\textbf{VAT/SAT ratio} \\
+Cluster 1 & \textbf{-0.23 (-0.34; -0.11)} & \textbf{-0.21 (-0.33; -0.09)} \\
+Cluster 3 & \textbf{0.18 (0.06; 0.31)} & \textbf{0.18 (0.06; 0.31)} \\
+\textbf{Body fat (\%)} \\
+Cluster 1 & \textbf{0.15 (0.05; 0.25)} & \textbf{0.14 (0.04; 0.24)} \\
+Cluster 3 & \textbf{0.63 (0.52; 0.73)} & \textbf{0.62 (0.51; 0.72)} \\
+\botrule
+\end{tabular}\par}
+{\footnotesize\raggedright
+Reference: Cluster 2. Data are adjusted mean differences (95\% CI) in standardized outcomes (SD units). VAT, SAT, and VAT/SAT ratio were log-transformed due to skewed distributions and standardized before regression analyses and body fat percentage was standardized on the original scale. Models are adjusted for age and sex, with further adjustment for smoking status and physical activity. Bold estimates indicate statistically significant associations (p $<$ 0.05).\par}
+\end{table*}
+\FloatBarrier

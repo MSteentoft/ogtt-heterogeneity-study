@@ -1,0 +1,93 @@
+---
+title: "Heterogeneity in GLP-1, GIP and glucagon responses during an oral glucose tolerance test"
+
+author:
+  - name: Mikkel Errboe Steentoft
+    affiliations:
+      - department: Steno Diabetes Center Aarhus
+        name: Aarhus Universitetshospital, Denmark
+      - department: Department of Public Health
+        name: Aarhus University, Denmark
+    corresponding: true
+    email: milram@rm.dk
+  - name: Gunnar Vase Toft
+    affiliations:
+      - department: Steno Diabetes Center Aarhus
+        name: Aarhus Universitetshospital, Denmark
+      - department: Department of Public Health
+        name: Aarhus University, Denmark
+  - name: Jonas Frey Rosborg Schaarup
+    affiliations:
+      - department: Steno Diabetes Center Aarhus
+        name: Aarhus Universitetshospital, Denmark
+      - department: Department of Public Health
+        name: Aarhus University, Denmark
+      - department: Steno Diabetes Center Copenhagen, Denmark
+  - name: Daniel R. Witte
+    affiliations:
+      - department: Steno Diabetes Center Aarhus
+        name: Aarhus Universitetshospital, Denmark
+      - department: Department of Public Health
+        name: Aarhus University, Denmark
+        
+abstract: |
+  **Purpose:** This cross-sectional study aimed to identify metabolic subgroups based on glucose and hormonal responses during an oral glucose tolerance test (OGTT) among individuals across the glycemic spectrum, from normoglycemia to screen-detected type 2 diabetes, and to quantify their associations with body fat distribution.
+
+  **Methods:** K-means clustering was applied to 1,381 individuals from the ADDITION-PRO study. Clustering variables included OGTT-derived measures of glucose, incretins (glucagon-like peptide-1 and glucose-dependent insulinotropic polypeptide), insulin sensitivity and glucagon suppression. Visceral (VAT) and subcutaneous (SAT) adipose tissue and body fat percentage were assessed by ultrasound and bioelectrical impedance analysis. Associations between clusters and standardized measures of fat distribution were assessed using linear regression models adjusted for age, sex, smoking and physical activity.
+
+  **Results:** Three clusters were identified. Cluster 3 had the highest glucose levels, lowest insulin sensitivity, and highest VAT, SAT, VAT/SAT ratio and body fat percentage (0.69, 0.28, 0.18 and 0.62 SD units, respectively). Despite similar glycemic profiles, cluster 1 had the lowest incretin secretion but highest glucagon suppression, while cluster 2 showed the opposite pattern. Cluster 1 had similar VAT to cluster 2 but higher SAT, body fat percentage and a lower VAT/SAT ratio (0.25, 0.14 and -0.21 SD units, respectively). 
+
+  **Conclusion:** These findings suggest that incretin and glucagon responses capture metabolic heterogeneity beyond glycemic status and are associated with differences in body fat distribution. As findings are limited by the cross-sectional design, future studies should examine whether this heterogeneity predicts risk trajectories and responses to prevention strategies.
+  
+keywords: [type 2 diabetes, prediabetes, metabolic heterogeneity, incretins, glucagon, body fat distribution]
+
+format:
+  nature-pdf:
+    output-file: "manuscript-heterogeneity-glp1-gip-glucagon_ogtt.pdf"
+    keep-tex: true
+    include-in-header:
+      text: |
+        \usepackage{placeins}
+        \usepackage{array}
+        \usepackage{rotating}
+        \usepackage{pdflscape}
+        \usepackage{totcount}
+        \regtotcounter{figure}
+        \regtotcounter{table}
+        \AtBeginDocument{\bibpunct{[}{]}{,}{n}{}{,}}
+        \makeatletter
+        \renewcommand\@biblabel[1]{#1.}
+        \renewcommand{\printabstract}{%
+          \par\addvspace{10pt}
+          {\addressfont\centering
+          \textbf{Word count:} 4,106\quad
+          \textbf{Figures:} \total{figure}\quad
+          \textbf{Tables:} \total{table}\quad
+          \textbf{References:} 38\par
+          \textbf{Supplementary Information:} 3 tables + 1 figure\par}
+          \newpage
+          \ifx\@abstract\empty\else\@abstract\fi\par}
+        \makeatother
+        \AtBeginDocument{\hypersetup{hidelinks}}
+    journal:
+      cite-style: sn-vancouver
+    classoption: Numbered
+    cite-method: natbib
+  docx:
+    default: true
+    output-file: "manuscript-heterogeneity-glp1-gip-glucagon_ogtt.docx"
+
+bibliography: references.bib
+csl: springer-vancouver-brackets.csl 
+
+editor:
+  markdown:
+    wrap: 72
+---
+{{< include 03-introduction.qmd >}}
+{{< include 04-methods.qmd >}}
+{{< include 05-results.qmd >}} 
+{{< include 06-conclusions.qmd >}}
+{{< include 07-acknowledgements.qmd >}}
+{{< include 08-manuscript-references.qmd >}}
+{{< include 09-declarations.qmd >}}
