@@ -1,25 +1,26 @@
+# 
+
+{{< pagebreak >}}
+
 # Declarations
 
-**Funding**
-
+**Funding**\
 No funding was received to assist with the preparation of this manuscript.
 
-**Competing interests**
-
+**Competing interests**\
 The authors have no relevant financial or non-financial interests to disclose.
 
-**Ethics approval**
-
+**Ethics approval**\
 The ADDITION-PRO study was approved by the Scientific Ethics Committee of the Central Denmark Region (reference no. 20080229) and conducted in accordance with the principles of the Declaration of Helsinki.
 
-**Consent to participate**
-
+**Consent to participate**\
 All participants provided both oral and written informed consent.
 
-**Consent for publication**
-
+**Consent for publication**\
 Not applicable.
 
-**Availability of data and material**
-
+**Availability of data and material**\
 The data used in this study are not publicly available. Access to ADDITION-PRO data may be granted upon request and approval by the ADDITION-PRO Steering Committee.
+
+The project, including the manuscript and code for the analyses and figures, is available at:\
+<https://github.com/MSteentoft/ogtt-heterogeneity-study>
