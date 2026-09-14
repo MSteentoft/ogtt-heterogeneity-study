@@ -28,5 +28,5 @@ data deliveries and may differ from filenames used in future data
 deliveries.
 
 #### Journal-ready figures
-code/prepare-journal-figures.R is a convenience script for preparing figures for journal submission. It trims and resizes existing PDF figures to the required dimensions.
+code/prepare-journal-figures.r is a convenience script for preparing figures for journal submission. It trims and resizes existing PDF figures to the required dimensions.
 Figures can preferably be exported at the correct dimensions from the outset, but this script is useful when post-processing is needed.
