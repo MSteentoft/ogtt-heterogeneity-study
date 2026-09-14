@@ -1,7 +1,33 @@
-
-# ============================================================
 # JOURNAL FIGURES
-# ============================================================
+#
+# PURPOSE
+# -------
+# This script takes the final PDF figures generated for the
+# manuscript and reformats them to the dimensions required
+# by the target journal.
+#
+# WORKFLOW
+# --------
+# The figures are:
+#   1. Read from the local `images/original/` directory
+#   2. Trimmed from the bottom by a figure-specific amount
+#   3. Rescaled to a fixed width of 174 mm
+#   4. Saved to `images/journal/`
+#
+# NOTE
+# ----
+# `images/original/` contains the original input figures and is
+# intentionally excluded from version control. The directory
+# therefore does not exist in the GitHub repository and must be
+# created locally when reproducing the workflow.
+#
+# Place the required input PDFs in `images/original/` before
+# running this script. The expected filenames are defined in
+# `figures` below.
+#
+# The journal-ready output figures are saved in
+# `images/journal/` and are tracked in the repository.
+#
 
 pdflatex <- Sys.which("pdflatex")
 
