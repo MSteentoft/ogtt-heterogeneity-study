@@ -5,7 +5,7 @@ This project is built using [Quarto](https://quarto.org/) and LaTeX. The PDF lay
 
 * **Render PDF:** Run `quarto render manuscript.qmd` in the terminal (or click **Render** in RStudio).
 
-## tables and figures
+## Tables and figures
 
 tables are embedded in the manuscript while /images contains main and supplementary figures
 
