@@ -7,7 +7,7 @@ This project is built using [Quarto](https://quarto.org/) and LaTeX. The PDF lay
 
 ## Tables and figures
 
-tables are embedded in the manuscript while /images contains main and supplementary figures
+Tables are embedded in the manuscript while /images contains main and supplementary figures
 
 ## Data
 
