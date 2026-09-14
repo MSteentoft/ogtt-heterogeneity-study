@@ -1,7 +1,7 @@
 ---
 format:
   nature-pdf:
-    output-fiel: "supplementary-heterogeneity-glp1-gip-glucagon_ogtt.pdf"
+    output-file: "supplementary-heterogeneity-glp1-gip-glucagon_ogtt.pdf"
     include-in-header:
       text: |
         \usepackage{placeins}
