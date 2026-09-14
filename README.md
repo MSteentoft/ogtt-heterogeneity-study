@@ -7,7 +7,7 @@ This project is built using [Quarto](https://quarto.org/) and LaTeX. The PDF lay
 
 ## Data
 
-The raw data are not included in this repository due to data access
+The raw data is not included in this repository due to data access
 and data protection restrictions.
 
 01-data-management.R documents the variables used from the
