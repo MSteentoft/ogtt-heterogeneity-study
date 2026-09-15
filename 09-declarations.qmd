@@ -5,7 +5,7 @@
 # Declarations
 
 **Funding**\
-No funding was received to assist with the preparation of this manuscript.
+The ADDITION-PRO study received funding from the European Foundation for the Study of Diabetes/Pfizer for Research into Cardiovascular Disease Risk Reduction in Patients with Diabetes (74550801). Additionally, the study was supported by internal research and equipment funds from Steno Diabetes Center A/S. The funders had no influence on the study design, data collection and analysis, decision to publish, or preparation of the manuscript.
 
 **Competing interests**\
 The authors have no relevant financial or non-financial interests to disclose.
