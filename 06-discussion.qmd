@@ -1,4 +1,4 @@
-# Conclusions
+# Discussion
 
 In this study, we identified three metabolically distinct subgroups among individuals across the glycemic spectrum, from normoglycemia to screen-detected type 2 diabetes, characterized by differences in glucose regulation, incretin secretion and glucagon suppression. The subgroups differed markedly in body fat distribution, with the insulin-resistant, dysglycemic subgroup exhibiting the highest visceral and subcutaneous adiposity, while the two more insulin-sensitive subgroups primarily differed in SAT, VAT/SAT ratio and body fat percentage despite similar glycemic status.
 
