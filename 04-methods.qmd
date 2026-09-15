@@ -1,3 +1,7 @@
+---
+bibliography: references.bib
+---
+
 # Research Design and Methods
 
 This cross-sectional study was based on data from the ADDITION-PRO study, conducted from 2009-2011 [@johansen2012]. The ADDITION-PRO cohort was sampled from the ADDITION-DK study, a population-based high-risk screening program for type 2 diabetes conducted in Danish general practices from 2001-2006 [@lauritzen2000]. Following completion of the screening program, participants without diabetes (n=22,200) were stratified into five categories based on their glycemic status and a diabetes risk score including age, sex, BMI, family history of diabetes, known hypertension and physical activity [@glümer2004]: 1) low risk, 2) high risk with normoglycemia (NGT), 3) isolated impaired fasting glucose (iIFG), 4) isolated impaired glucose tolerance (iIGT) and 5) combined impaired fasting glucose and impaired glucose tolerance (IFG+IGT). Individuals with iIFG, iIGT, IFG+IGT and those who had developed type 2 diabetes since screening (n = 1,483 in total) as well as a random sample of individuals at low and high risk with NGT (n = 2705) were invited to the health assessment in the ADDITION-PRO study, of whom 2,082 (50%) agreed to participate [@johansen2012]. According to the World Health Organization 2006 criteria [@worldhealthorganization2006], all participants were categorized as having NGT, iIFG, iIGT, combined IFG and IGT or type 2 diabetes based on fasting plasma glucose (FPG) and 2-hour plasma glucose values (2hPG).
@@ -24,19 +28,7 @@ Of the 2,082 participants attending the follow-up health assessment, 1,381 were 
 
 ### Calculations
 
-Total area under the curve (AUC) for glucose, insulin, GLP-1, GIP and glucagon from 0-120 minutes during the OGTT was calculated using the trapezoid rule [@tai1994b]. For example, AUC glucose was calculated as:
-
-$$AUC_{glucose} = \frac{glucose_0 + glucose_{30}}{2} \times 30 + \frac{glucose_{30} + glucose_{120}}{2} \times 90$$
-
-As a measure of insulin sensitivity, Gutt's insulin sensitivity index [@gutt2000] was calculated as
-
-$$ISI_{0,120} = \frac{75000 + 180(glucose_{t0} - glucose_{t120}) \times 0.19 \times body\ weight}{120 \times \left(\frac{glucose_{t0} + glucose_{t120}}{2}\right) \times \log\left(\frac{insulin_{t0} + insulin_{t120}}{6.945 \times 2}\right)}$$
-
-Glucagon suppression (%) from 0-120 minutes was calculated as
-
-$$Glucagon\ suppression = \left(1 - \frac{glucagon_{120}}{glucagon_{0}}\right) \times 100\%$$
-
-Glucagon suppression for intervals 0-30 and 30-120 minutes was calculated accordingly.
+Total area under the curve (AUC) for glucose, insulin, GLP-1, GIP and glucagon from 0-120 minutes during the OGTT was calculated using the trapezoid rule [@tai1994b]. Gutt's insulin sensitivity index [@gutt2000] was included as a measure of insulin sensitivity, and glucagon suppression (%) was calculated for the intervals 0-30, 30-120 and 0-120 minutes according to previous literature [@færch2016].
 
 ### Statistical analysis
 
