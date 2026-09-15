@@ -87,7 +87,7 @@ editor:
 {{< include 03-introduction.qmd >}}
 {{< include 04-methods.qmd >}}
 {{< include 05-results.qmd >}} 
-{{< include 06-conclusions.qmd >}}
+{{< include 06-discussion.qmd >}}
 {{< include 07-acknowledgements.qmd >}}
 {{< include 08-manuscript-references.qmd >}}
 {{< include 09-declarations.qmd >}}
