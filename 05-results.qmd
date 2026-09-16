@@ -17,7 +17,8 @@ A three-cluster solution was identified as the most appropriate clustering solut
  & \textbf{Overall} & \textbf{Cluster 1} & \textbf{Cluster 2} & \textbf{Cluster 3} \\
  & N = 1381 & N = 459 & N = 491 & N = 431 \\
 \midrule
-\multicolumn{5}{l}{\textbf{Demographics \& Lifestyle}} \\
+\multicolumn{5}{@{}l}{\textbf{\normalsize Demographics \& Lifestyle}} \\[1pt]
+\cmidrule(r){1-5}
 Age at follow-up (years) & 66 (7.1) & 64.7 (7.4) & 66.5 (7.3) & 66.9 (6.4) \\
 Sex \\
 \quad Women & 654 (47\%) & 175 (38\%) & 291 (59\%) & 188 (44\%) \\
@@ -25,8 +26,9 @@ Sex \\
 Smoking status \\
 \quad Current smoker & 863 (63\%) & 266 (58\%) & 307 (63\%) & 290 (68\%) \\
 \quad Never smoked & 508 (37\%) & 190 (42\%) & 183 (37\%) & 135 (32\%) \\
-Physical activity (kJ/kg/day) & 52 (24) & 53.4 (23.8) & 50.4 (22.1) & 52.4 (26.1) \\
-\multicolumn{5}{l}{\textbf{Adiposity \& Fat Distribution}} \\
+Physical activity (kJ/kg/day) & 52 (24) & 53.4 (23.8) & 50.4 (22.1) & 52.4 (26.1) \\[6pt]
+\multicolumn{5}{@{}l}{\textbf{\normalsize Demographics \& Lifestyle}} \\[1pt]
+\cmidrule(r){1-5}
 Body mass index (BMI) \\
 \quad Men & 27.4 (3.8) & 26.7 (3.4) & 26.4 (3.8) & 29.2 (3.7) \\
 \quad Women & 26.6 (5.1) & 26.2 (4.2) & 25.3 (4.7) & 29 (5.7) \\
@@ -44,8 +46,9 @@ Subcutaneous adipose tissue (cm) \\
 \quad Women & 2.8 (1.1) & 2.9 (1.1) & 2.7 (1.2) & 3 (1) \\
 VAT/SAT ratio \\
 \quad Men & 4.8 (3) & 4.1 (2.2) & 4.9 (2.8) & 5.5 (3.7) \\
-\quad Women & 2.8 (1.7) & 2.5 (1.6) & 2.8 (1.6) & 3.1 (2) \\
-\multicolumn{5}{l}{\textbf{Biochemical measures}} \\
+\quad Women & 2.8 (1.7) & 2.5 (1.6) & 2.8 (1.6) & 3.1 (2) \\[6pt]
+\multicolumn{5}{@{}l}{\textbf{\normalsize Demographics \& Lifestyle}} \\[1pt]
+\cmidrule(r){1-5}
 Glycemic status \\
 \quad NGT & 734 (53\%) & 319 (69\%) & 382 (78\%) & 33 (8\%) \\
 \quad iIFG & 249 (18\%) & 105 (23\%) & 85 (17\%) & 59 (14\%) \\
