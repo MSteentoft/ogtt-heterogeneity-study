@@ -66,12 +66,12 @@ HbA1c (mmol/mol) & 38.8 (4.6) & 37.7 (3.5) & 37.9 (3.7) & 41 (5.7) \\
 \end{table*}
 \FloatBarrier
 
-Figure 1 shows characteristics of clustering variables across clusters. The OGTT response patterns underlying these clusters are shown in Figure 2, with mean response curves for glucose, insulin, GLP-1, GIP and glucagon (*Fig. 2A, B, C, D* and *E,* respectively) at all three time points (0, 30 and 120 minutes). Cluster 3 was characterized by the highest FPG and 2hPG, alongside the highest insulin concentrations throughout the OGTT and the lowest insulin sensitivity across clusters. In contrast, cluster 2 had the lowest 2hPG, higher 30-minute insulin than cluster 1 and the highest insulin sensitivity. Cluster 1 had the lowest incretin secretion with substantially lower GLP-1 and GIP secretion than cluster 2. Glucagon response patterns also differed between clusters. Cluster 3 showed impaired early glucagon suppression, whereas cluster 2 had lower glucagon suppression than cluster 1 across all intervals. Despite differences in early and late response patterns, clusters 1 and 3 had similar overall glucagon suppression while cluster 3 had the highest overall glucagon secretion. Detailed OGTT measurements are shown in supplementary Table S2.
+Figure 1 shows characteristics of clustering variables across clusters. The OGTT response patterns underlying these clusters are shown in Figure 2, with mean response curves for glucose, insulin, GLP-1, GIP and glucagon (*Fig. 2A, B, C, D* and *E,* respectively) at all three time points (0, 30 and 120 minutes). Cluster 3 was characterised by the highest FPG and 2hPG, alongside the highest insulin concentrations throughout the OGTT and the lowest insulin sensitivity across clusters. In contrast, cluster 2 had the lowest 2hPG, higher 30-minute insulin than cluster 1 and the highest insulin sensitivity. Cluster 1 had the lowest incretin secretion with substantially lower GLP-1 and GIP secretion than cluster 2. Glucagon response patterns also differed between clusters. Cluster 3 showed impaired early glucagon suppression, whereas cluster 2 had lower glucagon suppression than cluster 1 across all intervals. Despite differences in early and late response patterns, clusters 1 and 3 had similar overall glucagon suppression while cluster 3 had the highest overall glucagon secretion. Detailed OGTT measurements are shown in supplementary Table S2.
 
 \begin{figure*}[!htbp]
 \centering
     \makebox[\textwidth][c]{\includegraphics[width=1.5\textwidth]{images/journal/fig_1.pdf}}
-    \caption{OGTT-characteristics across clusters. Each plot shows the cluster mean standardized levels (z scores) of AUC glucose, AUC GLP-1, AUC GIP, Gutt's insulin sensitivity index and glucagon suppression. Higher z scores indicate higher values for the respective measure.}
+    \caption{OGTT-characteristics across clusters. Each plot shows the cluster mean standardised levels (z scores) of AUC glucose, AUC GLP-1, AUC GIP, Gutt's insulin sensitivity index and glucagon suppression. Higher z scores indicate higher values for the respective measure.}
 \label{fig-cluster-characteristics}
 \end{figure*}
 \FloatBarrier
@@ -97,7 +97,7 @@ Estimates from all four outcome models, representing associations between cluste
 
 \begin{table*}[!htbp]
 \small
-\caption{Associations between cluster and standardized measures of visceral fat (VAT), subcutaneous fat (SAT), VAT/SAT ratio and body fat percentage}
+\caption{Associations between cluster and standardised measures of visceral fat (VAT), subcutaneous fat (SAT), VAT/SAT ratio and body fat percentage}
 \label{tab-associations}
 {\centering
 \begin{tabular}{@{}l>{\centering\arraybackslash}p{5cm}>{\centering\arraybackslash}p{5cm}@{}}
@@ -120,6 +120,6 @@ Cluster 3 & \textbf{0.63 (0.52; 0.73)} & \textbf{0.62 (0.51; 0.72)} \\
 \botrule
 \end{tabular}\par}
 {\footnotesize\raggedright
-Reference: Cluster 2. Data are adjusted mean differences (95\% CI) in standardized outcomes (SD units). VAT, SAT, and VAT/SAT ratio were log-transformed due to skewed distributions and standardized before regression analyses and body fat percentage was standardized on the original scale. Models are adjusted for age and sex, with further adjustment for smoking status and physical activity. Bold estimates indicate statistically significant associations (p $<$ 0.05).\par}
+Reference: Cluster 2. Data are adjusted mean differences (95\% CI) in standardised outcomes (SD units). VAT, SAT, and VAT/SAT ratio were log-transformed due to skewed distributions and standardised before regression analyses and body fat percentage was standardized on the original scale. Models are adjusted for age and sex, with further adjustment for smoking status and physical activity. Bold estimates indicate statistically significant associations (p $<$ 0.05).\par}
 \end{table*}
 \FloatBarrier
