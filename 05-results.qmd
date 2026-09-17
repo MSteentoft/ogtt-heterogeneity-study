@@ -19,7 +19,7 @@ A three-cluster solution was selected based on statistical criteria, distinct OG
 \midrule
 \multicolumn{5}{@{}l}{\textbf{\normalsize Demographics \& Lifestyle}} \\[1pt]
 \cmidrule(r){1-5}
-Age at follow-up (years) & 66 (7.1) & 64.7 (7.4) & 66.5 (7.3) & 66.9 (6.4) \\
+Age (years) & 66 (7.1) & 64.7 (7.4) & 66.5 (7.3) & 66.9 (6.4) \\
 Sex \\
 \quad Women & 654 (47\%) & 175 (38\%) & 291 (59\%) & 188 (44\%) \\
 \quad Men & 727 (53\%) & 284 (62\%) & 200 (41\%) & 243 (56\%) \\
