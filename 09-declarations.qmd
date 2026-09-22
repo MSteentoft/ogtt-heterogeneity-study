@@ -22,5 +22,4 @@ Not applicable.
 **Availability of data and material**\
 The data used in this study are not publicly available. Access to ADDITION-PRO data may be granted upon request and approval by the ADDITION-PRO Steering Committee.
 
-The project, including the manuscript and code for the analyses and figures, is available at:\
-<https://github.com/MSteentoft/ogtt-heterogeneity-study>
+The project, including the manuscript and code for the analyses and figures, is available at: <https://github.com/MSteentoft/ogtt-heterogeneity-study>
